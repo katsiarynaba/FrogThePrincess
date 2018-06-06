@@ -1,0 +1,44 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  color: white; background: white;
+} 
+
+
+
+
+
+ body {
+    padding:0;
+    font-family: 'Space Mono', monospace;
+    letter-spacing:0.2px;
+    margin:0;
+    overflow:hidden;
+    font-color: white;
+    color: white;
+ }
+
+
+
+ a {
+    height:100vh;
+    display:block;
+    color:#2d2a25;
+    background-color:#ecebe9;
+    font-size:32px;
+
+ }
+
+ .bold {
+    font-weight:700;
+ }
+
+.center {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
